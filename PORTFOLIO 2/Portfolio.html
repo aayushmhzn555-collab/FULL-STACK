@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aayush Maharjan | Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+
+  <!-- VIDEO BACKGROUND (FULL PAGE) -->
+  <video autoplay loop muted playsinline id="video-background">
+    <source src="VID.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- HERO SECTION -->
+  <header id="hero" class="section fade-in">
+    <nav class="navbar">
+      <span class="logo">Aayush Maharjan</span>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menu-button" aria-expanded="false">☰</button>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Aayush Maharjan</h1>
+      <p>Frontend Developer & UI/UX Enthusiast</p>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section fade-in">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I craft modern, responsive, and accessible user interfaces. Passionate about clean design and smooth user experiences.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section fade-in">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">UI/UX Design</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section fade-in">
+    <div class="container">
+      <h2>Projects</h2>
+      <div id="projects-grid">
+        <article class="project-card">
+          <h3>Project 1</h3>
+          <p>Responsive website design for small businesses.</p>
+          <a href="#" class="btn">View</a>
+        </article>
+        <article class="project-card">
+          <h3>Project 2</h3>
+          <p>Interactive UI for e-learning platform using React.</p>
+          <a href="#" class="btn">View</a>
+        </article>
+        <article class="project-card">
+          <h3>Project 3</h3>
+          <p>Gamified application interface for improved engagement.</p>
+          <a href="#" class="btn">View</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contact-form-id" novalidate>
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <textarea id="message" placeholder="Your message" rows="4"></textarea>
+        <button type="submit" class="btn">Submit</button>
+        <div id="form-message" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer fade-in">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Aayush Maharjan | All rights reserved</small>
+    </div>
+  </footer>
+
+  <script src="Portfolio.js"></script>
+</body>
+</html>
