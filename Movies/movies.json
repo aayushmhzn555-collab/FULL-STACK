@@ -1,0 +1,34 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "year": 2010
+    },
+    {
+      "id": 2,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "year": 1994
+    },
+    {
+      "id": 3,
+      "title": "TMKOC",
+      "genre": "Comedy",
+      "year": 2008
+    },
+    {
+      "id": 4,
+      "title": "cartoon",
+      "genre": "horror",
+      "year": 1100
+    },
+    {
+      "title": "Valorant",
+      "genre": "Gaming",
+      "year": 2025,
+      "id": "b47d"
+    }
+  ]
+}
